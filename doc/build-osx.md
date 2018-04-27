@@ -76,7 +76,7 @@ Installing the dependencies using MacPorts is very straightforward.
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:poobcoin-project/poobcoin.git poobcoin
+        git clone git@github.com:ImaPoob/poobcoin.git poobcoin
         cd poobcoin
 
 2.  Build poobcoind:
@@ -111,7 +111,7 @@ Rerunning "openssl version" should now return the correct version.
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/poobcoin-project/poobcoin.git
+        git clone https://github.com/ImaPoob/poobcoin.git
         cd poobcoin
 
 2.  Modify source in order to pick up the `openssl` library.
