@@ -19,8 +19,8 @@ using namespace std;
 map<uint256, CAlert> mapAlerts;
 CCriticalSection cs_mapAlerts;
 
-static const char* pszMainKey = "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9";
-static const char* pszTestKey = "04302390343f91cc401d56d68b123028bf52e5fca1939df127f63c6467cdf9c8e2c14b61104cf817d0b780da337893ecc4aaff1309e536162dabbdb45200ca2b0a";
+static const char* pszMainKey = "04e30a7bee8679c5d1051135d0d8abb378187e8023549a997e7d4400299edf3f1ac9ca71be0e54541a23d0cf139d120aa0489734b89e0325efc94bb91fa4bf7c65";
+static const char* pszTestKey = "04f1c20b5f2a0bf9594894c00e817efa6fcffa6cd78d42f9c1b82e11f4e8d4ea7f2f47fd050ac9eae4e3d9c042ab15163c7ddb8f97845026d49a22db7bff1f1c77";
 
 void CUnsignedAlert::SetNull()
 {
